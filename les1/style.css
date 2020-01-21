@@ -2,3 +2,9 @@ p{
     background-color:gold;
     margin-right:50px;
 }
+body p{
+    background-color: darkred;
+}
+.klasse-1{
+    color: darkturquoise;
+}
