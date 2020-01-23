@@ -1,0 +1,41 @@
+p{
+    font-size: 20px;
+}
+.float-img{
+    float:left;
+    width:300px;
+    height:auto;
+}
+.clear{
+    clear:both;
+}
+nav{
+    background:red;
+    overflow:auto;
+    padding:5px;
+    margin-bottom:20px;
+}
+nav a{
+    display:block;
+    width:75px;
+    height:25px;
+}
+nav .left{
+    float:left;
+}
+nav .right{
+    float:right;
+    margin-left:5px;
+}
+nav .blue{
+    background:blue
+}
+nav .purple{
+    background:purple;
+}
+nav .green{
+    background:green;
+}
+nav .yellow{
+    background:yellow;
+}
