@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Les 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <form id="form-1" method="GET" action="#">
+        <fieldset>
+            <legend>Sectie 1</legend>
+            
+        <label for="first-name">Voornaam: </label>
+        <input name="first-name" id="first-name" type="text" placeholder="Ik heet..." required>
+        <label>
+            Email: 
+            <input name="email" type="email" value="test@mail.com">
+        </label>
+        <label>
+            Leeftijd: 
+            <input name="age" type="number">
+        </label>
+        </fieldset>
+        <label>
+            Geboortedatum: 
+            <input type="date" name="birth-date" value="1991-10-11">
+        </label>
+        <label>
+            Huisdier:
+            <input name="pet" type="checkbox" value="has-pet" checked>
+        </label>
+        <label>
+            Man: 
+            <input name="gender" type="radio" value="man" checked>
+        </label>
+        <label>
+            Vrouw: 
+            <input name="gender" type="radio" value="woman">
+        </label>
+        <label>
+            Kinderen: 
+            <select name="children">
+                <option value="-" disabled selected>Selecteer</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+            </select>
+        </label>
+        <button type="button">Test</button>
+        <!-- <input type="submit" value="Verzenden"> -->
+        <button type="submit">Verzenden</button>
+    </form>
+    <button form="form-1" type="submit">Verzenden (buiten)</button>
+    <pre>
+        Een   spatie
+        en een nieuwe lijn
+    </pre>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Corrupti eaque in nisi consequatur commodi aliquam ut libero voluptatum, impedit accusantium incidunt. Incidunt, cupiditate asperiores sequi sit eveniet eius id doloremque.
+    </p>
+
+</body>
+</html>
