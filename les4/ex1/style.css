@@ -1,0 +1,27 @@
+html, body{
+    height:100%;
+}
+body{
+    margin:0px;
+    padding:0px;
+    display:flex;
+    flex-direction: column;
+}
+header, footer{
+    background:blue;
+    height:150px;
+}
+
+.container{
+    flex-grow: 1;
+    background:yellow;
+    flex-direction: row;
+    display:flex;
+}
+.container main{
+    flex-grow:1;
+}
+.container aside{
+    background:red;
+    width:300px;
+}
